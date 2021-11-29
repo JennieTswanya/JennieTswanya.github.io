@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Nile University of Nigeria Official Website</title>
+        <link rel="stylesheet"  type="text/css" href="style.css">
+        <link rel="icon" type="image/x-icon" href="images/Favicon.png">
+    </head>
+    <body>
+        <div class="sec-menu"></div>
+        <div class="menu">
+            <img src="images/home_logo_mavi.jpg" style="padding-left: 10px;">
+        </div>
+        
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 4</div>
+              <img src="images/sliders/slider1.jpg" style="width:100%">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 4</div>
+              <img src="images/sliders/slider2.jpg" style="width:100%">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 4</div>
+              <img src="images/sliders/slider3.jpg" style="width:100%">
+              <div class="text">Caption Three</div>
+            </div>
+            
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="images/sliders/slider4.jpg" style="width:100%">
+                <div class="text">Caption Four</div>
+              </div>
+
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+
+            <div class="apply">Online Application is Now Open!!!!
+                <br>
+                Apply now!
+                <br>
+                <b>REGISTERATION IS NOW ON</b>
+            </div>
+
+            <div class="headlines">
+              <div class="fortune">
+                <b>ACADEMIC CALENDER</b>
+                <hr>
+
+              </div>
+              <div class="fortune">
+                <b>ANNOUNCMENT/NEWS</b>
+                <hr>
+
+              </div>
+              <div class="fortune">
+                <b>ACTIVITIES</b>
+                <hr>
+
+              </div>
+
+             <div class="banner" style="background-image:url(images/undergraduate.png); background-color:#78b27a;">Undergraduate</div>
+             <div class="banner" style="background-image: url(images/postgraduate.png);background-color: #3b5773; margin-left: 0px;">Postgraduate</div>
+             <div class="banner" style="background-image: url(images/academic.png);background-color:#a67e95; margin-left: 0px;">Academic Calender</div>
+            </div>
+
+
+            <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+                
+
+
+
+    </body>
+</html>
