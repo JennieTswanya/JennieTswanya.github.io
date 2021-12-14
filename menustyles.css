@@ -1,0 +1,132 @@
+.list{
+    position: fixed;
+    z-index: 1;
+    width: 1349px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+}
+
+.navimg{
+    position: fixed;
+    width: 168px;
+    height: 102px;
+    left: 0px;
+    top: 0px;
+}
+
+.links{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link-item1 a{
+    position: absolute;
+    width: 96px;
+    height: 57px;
+    left: 398px;
+    top: 22px;
+    font-family: 'Saira' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #e32b12;
+   
+}
+
+.link-item2 a{
+    position: absolute;
+    width: 95px;
+    height: 57px;
+    left: 555px;
+    top: 22px;
+    font-family: 'Saira' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #e32b12;
+   
+}
+
+.link-item3 a{
+    position: absolute;
+    width: 212px;
+    height: 57px;
+    left: 699px;
+    top: 22px;
+    font-family: 'Saira' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #e32b12;
+   
+}
+
+.link-item4 a{
+    position: absolute;
+    width: 224px;
+    height: 57px;
+    left: 961px;
+    top: 22px;
+    font-family: 'Saira' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 57px;
+    color: #e32b12;
+}
+
+.bg{
+    position: absolute;
+    width: 1349px;
+    height: 934px;
+    left: 0;
+    top: 122px;
+    background-color: #e32b12;
+}
+
+.joll{
+    position: absolute;
+    width: 1349px;
+    height: 314px;
+    left: 0px;
+    background-image: url(joll.jpg);
+    opacity: 0.7;
+}
+
+.cms{
+    position: absolute;
+    width: 160px;
+    height: 38px;
+    left: 647px;
+    top: 379px;
+    font-family: 'Saira' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    color: #ffffff;
+}
+
+.desc{
+    position: absolute;
+    width: 397px;
+    height: 44px;
+    left: 526px;
+    top: 417px;
+    font-family: 'Saira' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
